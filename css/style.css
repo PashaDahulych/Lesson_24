@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+input {
+width: 100%;
+}
+html,
+body {
+height: 100%;
+}
+body {
+	line-height: 1;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.3;
+	color: white;
+	background-color: #a6530a;
+	padding: 40px;
+}
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	margin: 0 auto;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	max-width: 76.875rem;
+}
+.text:not(:last-child) {
+   margin-bottom: 3rem;
+}
+.text__item {
+	text-align: center;
+}
+.list:not(:last-child) {
+	margin-bottom: 3rem;
+}
+.like:not(:last-child) {
+	margin-bottom: 3rem;
+}
+.subscribe:not(:last-child) {
+	margin-bottom: 3rem;
+}
+ul:not(:last-child) {
+	margin-bottom: 3rem;
+}
+ul > li:not(:last-child) {
+	margin-bottom: 1rem;
+}
+p:not(:last-child) {
+	margin-bottom: 3rem;
+} 
+.like {
+   border: 2px solid red;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	text-align: center;
+}
+.subscribe {
+	border: 2px solid green;
+	padding: 2.5rem;
+	border-radius: 0.5rem;
+	text-align: center;
+}
+.second-text {
+	border: 2px solid blue;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	text-align: center;
+}
